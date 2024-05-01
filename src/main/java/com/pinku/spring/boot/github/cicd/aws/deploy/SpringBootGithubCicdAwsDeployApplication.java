@@ -12,7 +12,7 @@ public class SpringBootGithubCicdAwsDeployApplication {
 
 	@GetMapping("/msg")
 	public String message() {
-		return "hello";
+		return "hello ";
 	}
 	
 	public static void main(String[] args) {
